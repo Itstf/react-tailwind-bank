@@ -12,9 +12,9 @@ const Hero = () => {
         <div className='w-full h-screen bg-zinc-200 flex flex-col justify-between'>
             <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
                 <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
-                    <p className='text-2xl'> laskfklmasf </p>
-                    <h1 className='py-3 text-5xl md:text-7xl font-bold'> asihdiasjfas </h1>
-                    <p className='text-2xl'> ashdfhasd </p>
+                    <p className='text-2xl'> Cards in your style! </p>
+                    <h1 className='py-3 text-5xl md:text-7xl font-bold'> Credit and Debit </h1>
+                    <p className='text-2xl'> Making lives easier, worry-free and your way. Use, save and enjoy your card as you wish. </p>
                     <button className='py-2 px-6 sm:w-[60%] my-4'> Click </button>
                 </div>
                 <div>

@@ -21,9 +21,9 @@ const Navbar = () => {
                     <h1 className='text-3xl font-bold mr-10 ml-4 sm:text-4xl text-amber-500'>UNDA.</h1>
                     <ul className='hidden md:flex'>
                         <li>Home</li>
+                        <li>Cards</li>
+                        <li>Loan</li>
                         <li>About</li>
-                        <li>Support</li>
-                        <li>abccc</li>
                     </ul>
                 </div>
                 <div className='hidden md:flex pr-4'>

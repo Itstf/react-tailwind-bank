@@ -6,7 +6,7 @@ import {
 
 import {ChipIcon, SupportIcon} from '@heroicons/react/solid'
 
-import img from '../assets/2.jpg'
+import img from '../assets/3.jpg'
 
 const About = () => {
     return (
@@ -17,9 +17,11 @@ const About = () => {
 
             <div className='max-w-[1240px] mx-auto text-white relative'>
                 <div className='px-4 py-12'>
-                    <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'> asdjsiadj </h2>
-                    <h3 className='text-5xl font-bold py-6 text-center'> tittle </h3>
-                    <p className='py-4 text-3xl text-slate-300'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. of Lorem Ipsum </p>
+                    <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'> Real-time responses, take advantage of botIA </h2>
+                    <h3 className='text-5xl font-bold py-6 text-center'> IA </h3>
+                    <p className='py-4 text-3xl text-slate-300 text-center'> An intelligence to help you in whatever you need! 
+                    <br></br>
+                    Answer your questions via whatsapp messages. </p>
                 </div>
 
 
@@ -27,7 +29,7 @@ const About = () => {
                         <div className='bg-white rounded-xl shadow-2xl'>
                             <div className='p-8'>
                                 <PhoneIcon className='w-16 p-4 bg-amber-500 text-white rounded-lg mt-[-4rem]'/>
-                                <h3 className='font-bold text-2xl my-6'> Support </h3>
+                                <h3 className='font-bold text-2xl my-6'> More experience </h3>
                                 <p className='text-gray-600 text-xl'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. of Lorem Ipsum </p>
                             </div>
                             <div className='bg-slate-100 pl-8 py-4'>

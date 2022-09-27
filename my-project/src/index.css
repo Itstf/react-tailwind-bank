@@ -12,3 +12,16 @@
     hover:bg-transparent hover:text-purple-500 rounded-md
   }
 }
+
+::-webkit-scrollbar {
+  width: 15px
+}
+
+::-webkit-scrollbar-track{
+background: black;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 15px;
+border: 10px solid #FFC107;
+}
