@@ -23,5 +23,6 @@ background: black;
 
 ::-webkit-scrollbar-thumb {
 border-radius: 15px;
-border: 10px solid #FFC107;
+border: 10px solid #a855f7;
+/* #f59e0b */
 }
