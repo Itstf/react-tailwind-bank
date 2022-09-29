@@ -18,26 +18,26 @@ const Application = () => {
                 </div>
 
                 <div className='grid md:grid-cols-3 gap-1 px-2 text-center'>
-                    <div className='border py-8 rounded-xl shadow-xl'>
-                        <p className='text-2xl font-bold text-amber-500'> Both plans </p>                        
-                        <div className='w-48'>
+                    <div className='border py-8 rounded-xl shadow-xl '>
+                        <p className='text-2xl font-bold text-amber-500'> Login </p>                        
+                        <div className='w-48 ml-28 shadow-2xl items-center mt-5'>
                             <img className='w-full' src={imgApp} alt="/" />
                         </div>
-                        <p className='text-gray-400 mt-2 text-2xl'> Pay in 90 days </p>
+                        {/* <p className='text-gray-400 mt-2 text-2xl'> Pay in 90 days </p> */}
                     </div>
                     <div className='border py-8 rounded-xl shadow-xl'>
-                        <p className='text-2xl font-bold text-amber-500'> Automatic money </p>
-                        <div className='w-48'>
-                            <img className='w-full' src={imgExtract} alt="/" />
+                        <p className='text-2xl font-bold text-amber-500'> Extract </p>
+                        <div className='w-48 ml-28 shadow-2xl items-center mt-5'>
+                            <img className='w-full ' src={imgExtract} alt="/" />
                         </div>
-                        <p className='text-gray-400 mt-2 text-2xl'> Money instantly drops into your account </p>
+                        {/* <p className='text-gray-400 mt-2 text-2xl'> Money instantly drops into your account </p> */}
                     </div>
                     <div className='border py-8 rounded-xl shadow-xl'>
-                        <p className='text-2xl font-bold text-amber-500'> Two planes </p>
-                        <div className='w-48'>
-                            <img className='w-full' src={imgProfile} alt="/" />
+                        <p className='text-2xl font-bold text-amber-500'> Profile </p>
+                        <div className='w-48 ml-28 shadow-2xl items-center mt-5'>
+                            <img className='w-full ' src={imgProfile} alt="/" />
                         </div>
-                        <p className='text-gray-400 mt-2 text-2xl'> Personal loan and automatic credit </p>
+                        {/* <p className='text-gray-400 mt-2 text-2xl'> Personal loan and automatic credit </p> */}
                     </div>
                 </div>
             </div>
