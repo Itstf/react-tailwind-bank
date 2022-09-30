@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
                 <div className='hidden md:flex pr-4'>
                     <button className='border-none bg-transparent text-black mr-4'> Sign In </button>
-                    <button className='px-6 py-2'> Sign Up </button>
+                    <button className='px-6 py-2 mr-4'> Sign Up </button>
                 </div>
                 <div className='md:hidden' onClick={handleClick}>
                     { !nav ? <MenuIcon className='w-10 mr-5'/> : <XIcon className='w-5 mr-5' />}
@@ -49,6 +49,7 @@ const Navbar = () => {
             <ul className={!nav ? 'hidden' : 'absolute bg-slate-100 w-full px-8'}>
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500'> <a href="#"> Home </a></li>
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500'> <a href="#About"> About </a></li>
+                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500'> <a href="#App"> App </a></li>
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500'> <a href="#Loan"> Loan </a></li>
                 <div className='flex flex-col my-4'>
                     <button className='bg-transparent text-purple-500 px-8 py-3 mb-4 hover:text-amber-500'> Sign In</button>

@@ -30,7 +30,7 @@ const About = () => {
                             <div className='p-8'>
                                 <CreditCardIcon className='w-16 p-4 bg-purple-500 text-white rounded-lg mt-[-4rem]'/>
                                 <h3 className='font-bold text-2xl my-6'> More experience </h3>
-                                <p className='text-gray-600 text-xl'> Credits on the market? Best solutions for more credit. </p>
+                                <p className='text-gray-600 text-xl'> Credits on the market? <br></br> Best solutions for more credit. <br></br> ! </p>
                             </div>
                             <div className='bg-slate-100 pl-8 py-4'>
                                 <p className='flex items-center text-purple-500'> Know more <ArrowSmRightIcon className='w-5 ml-2'/></p>
@@ -39,8 +39,6 @@ const About = () => {
                     
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
-                        
-
                             <CurrencyDollarIcon className='w-16 p-4 bg-purple-500 text-white rounded-lg mt-[-4rem]'/>
                             <h3 className='font-bold text-2xl my-6'> More investments </h3>
                             <p className='text-gray-600 text-xl'> Invest through the app, your 100% virtual bank. Go where the wave takes you! </p>
