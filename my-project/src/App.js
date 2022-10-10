@@ -4,6 +4,7 @@ import About from './components/About';
 import Application from './components/Application';
 import AllInOne from './components/AllInOne';
 import Prime from './components/Prime';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <AllInOne />
       <Prime />
+      <Footer />
     </>
   );
 }
