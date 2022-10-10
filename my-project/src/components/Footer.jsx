@@ -8,7 +8,7 @@ import {
 const Footer = () => {
     return (
         <div className='w-full mt-24 bg-gradient-to-r from-zinc-600 to-zinc-900 text-gray-300 py-y px-2'>
-            <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-amber-500 py-8'>
+            <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-500 py-8'>
                 
                 <div>
                     <h6 className='font-bold uppercase pt-2 '>
@@ -50,13 +50,13 @@ const Footer = () => {
                     <p className='font-bold uppercase mb-1 '> send us an email </p>
                     <form className='flex flex-col sm:flex-row'>
                         <input type="email" placeholder='Enter email' className='w-full p-2 mr-4 rounded-md mb-4'/>
-                        <button className='p-2 mb-4'> Send </button>
+                        <button className='p-2 mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300'> Send </button>
                     </form>
                 </div>
             </div>
 
             <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-purple-500'>
-                <p className='py-4 text-amber-500'> 2022 UNDA. ALL rights reserved</p>
+                <p className='py-4 text-gray-500 cursor-no-drop'> 2022 UNDA. ALL rights reserved</p>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
                     <a href="https://www.linkedin.com/in/thaiza-favarelli-da-silva-082978220/" className='hover:text-purple-600'> <FaLinkedin /> </a>
                     <a href="https://github.com/Itstf" className='hover:text-purple-600'> <FaGithub /> </a>

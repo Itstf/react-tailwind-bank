@@ -11,33 +11,26 @@ const Application = () => {
                 <div className='text-center'>
                     <h2 className='text-5xl font-bold'> Want to surf the wave of digital? </h2>
                     <p className='text-3xl py-6 text-gray-500 mb-20'> Download the Unda bank app and have your account. </p>
-                    {/* <div className='w-48'>
-                        <img className='w-full' src={imgApp} alt="/" />
-                        <img className='w-full' src={imgExtract} alt="/" />
-                    </div> */}
                 </div>
 
                 <div className='grid md:grid-cols-3 gap-1 px-2 text-center'>
                     <div className='border py-8 rounded-xl shadow-xl '>
-                        <p className='text-2xl font-bold text-amber-500'> Login </p>                        
+                        <p className='text-2xl font-bold text-amber-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-500 cursor-default transition duration-300 ease-in-out'> Login </p>                        
                         <div className='w-48 ml-28 shadow-2xl items-center mt-5'>
-                            <img className='w-full' src={imgApp} alt="/" />
+                            <img className='w-full hover:scale-105 transition duration-300 ease-in-out shadow-lg shadow-purple-500/50 grayscale hover:grayscale-0' src={imgApp} alt="/" />
                         </div>
-                        {/* <p className='text-gray-400 mt-2 text-2xl'> Pay in 90 days </p> */}
+                    </div>
+                    <div className='border py-8 rounded-xl shadow-lg shadow-purple-500/50'>
+                        <p className='text-2xl font-bold text-amber-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-500 cursor-default transition duration-300 ease-in-out'> Extract </p>
+                        <div className='w-48 ml-28 shadow-2xl items-center mt-5'>
+                            <img className='w-full hover:scale-105 transition duration-300 ease-in-out grayscale hover:grayscale-0' src={imgExtract} alt="/" />
+                        </div>
                     </div>
                     <div className='border py-8 rounded-xl shadow-xl'>
-                        <p className='text-2xl font-bold text-amber-500'> Extract </p>
+                        <p className='text-2xl font-bold text-amber-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-500 cursor-default transition duration-300 ease-in-out'> Profile </p>
                         <div className='w-48 ml-28 shadow-2xl items-center mt-5'>
-                            <img className='w-full ' src={imgExtract} alt="/" />
+                            <img className='w-full hover:scale-105 transition duration-300 ease-in-out shadow-lg shadow-purple-500/50 grayscale hover:grayscale-0' src={imgProfile} alt="/" />
                         </div>
-                        {/* <p className='text-gray-400 mt-2 text-2xl'> Money instantly drops into your account </p> */}
-                    </div>
-                    <div className='border py-8 rounded-xl shadow-xl'>
-                        <p className='text-2xl font-bold text-amber-500'> Profile </p>
-                        <div className='w-48 ml-28 shadow-2xl items-center mt-5'>
-                            <img className='w-full ' src={imgProfile} alt="/" />
-                        </div>
-                        {/* <p className='text-gray-400 mt-2 text-2xl'> Personal loan and automatic credit </p> */}
                     </div>
                 </div>
             </div>

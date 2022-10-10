@@ -7,7 +7,7 @@ import '../prime.css'
 const Prime = () => {
     return (
        <div className='w-full text-white my-24' id='Loan'>
-            <div className='w-full h-[800px] bg-gradient-to-r from-purple-600 to-amber-500 absolute mix-blend-overlay shadow-xl'></div>
+            <div className='w-full h-[800px] bg-gradient-to-r from-purple-500 to-gray-500 absolute mix-blend-overlay shadow-xl '></div>
             <div className='max-w-[1240px] mx-auto py-12'>
                 <div className='text-center py-8 text-slate-300'>
                     <h2 className='text-3xl uppercase'>Loan</h2>
@@ -15,7 +15,7 @@ const Prime = () => {
                     <p className='text-3xl'>In need of that extra help? <br></br> The credit you need, with the right security.</p>
                 </div>
                 <div className='grid md:grid-cols-2'>
-                    <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
+                    <div className='bg-white text-slate-900 m-4 p-8 rounded-xl relative shadow-lg shadow-purple-500/50'>
                         <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Credit in installments</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>72 months<span className='text-xl text-slate-500 flex flex-col justify-end'> to pay</span> </p>
@@ -28,12 +28,12 @@ const Prime = () => {
                             <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/> Valor aprovado conforme renda mensal </p>
                         </div>
                     </div>                
-                    <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
+                    <div className='bg-white text-slate-900 m-4 p-8 rounded-xl relative shadow-lg shadow-purple-500/50'>
                         <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Personal loan</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex '>48 months <span className='text-xl text-slate-500 flex flex-col justify-end'>to pay</span> </p>
                         </div>
-                        <p className='text-2xl py-8 text-slate-500 text-center '>Subject to credit review</p>
+                        <p className='text-2xl py-8 text-slate-500 text-center overline'>Subject to credit review</p>
                         <div className='text-2xl'>
                             <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/> You can pay the 1st installment within 90 days </p>
                             <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-green-600'/> Installments paid via automatic debit </p>
