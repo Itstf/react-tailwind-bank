@@ -4,7 +4,6 @@ import {
     ArrowSmRightIcon, CreditCardIcon, CurrencyDollarIcon, BriefcaseIcon
 } from '@heroicons/react/outline'
 
-import {ChipIcon, SupportIcon} from '@heroicons/react/solid'
 
 import img from '../assets/3.jpg'
 
@@ -29,33 +28,33 @@ const About = () => {
                         <div className='bg-white rounded-xl shadow-2xl'>
                             <div className='p-8'>
                                 <CreditCardIcon className='w-16 p-4 bg-purple-500 text-white rounded-lg mt-[-4rem]'/>
-                                <h3 className='font-bold text-2xl my-6'> More experience </h3>
+                                <h3 className='font-bold text-2xl my-6 overline'> More experience </h3>
                                 <p className='text-gray-600 text-xl'> Credits on the market? <br></br> Best solutions for more credit. <br></br> ! </p>
                             </div>
                             <div className='bg-slate-100 pl-8 py-4'>
-                                <p className='flex items-center text-purple-500'> Know more <ArrowSmRightIcon className='w-5 ml-2'/></p>
+                                <p className='flex items-center text-purple-500 cursor-not-allowed'> Know more <ArrowSmRightIcon className='w-5 ml-2'/></p>
                             </div>
                         </div>
                     
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
                             <CurrencyDollarIcon className='w-16 p-4 bg-purple-500 text-white rounded-lg mt-[-4rem]'/>
-                            <h3 className='font-bold text-2xl my-6'> More investments </h3>
+                            <h3 className='font-bold text-2xl my-6 overline'> More investments </h3>
                             <p className='text-gray-600 text-xl'> Invest through the app, your 100% virtual bank. Go where the wave takes you! </p>
                         </div>
                         <div className='bg-slate-100 pl-8 py-4'>
-                            <p className='flex items-center text-purple-500'> Know more <ArrowSmRightIcon className='w-5 ml-2'/></p>
+                            <p className='flex items-center text-purple-500 cursor-not-allowed'> Know more <ArrowSmRightIcon className='w-5 ml-2'/></p>
                         </div>
                     </div>
                 
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
                             <BriefcaseIcon className='w-16 p-4 bg-purple-500 text-white rounded-lg mt-[-4rem]'/>
-                            <h3 className='font-bold text-2xl my-6'> More joy </h3>
+                            <h3 className='font-bold text-2xl my-6 overline'> More joy </h3>
                             <p className='text-gray-600 text-xl'> Learn to save, organize finances and make much more of your money! </p>
                         </div>
                         <div className='bg-slate-100 pl-8 py-4'>
-                            <p className='flex items-center text-purple-500'> Know more <ArrowSmRightIcon className='w-5 ml-2'/></p>
+                            <p className='flex items-center text-purple-500 cursor-not-allowed'> Know more <ArrowSmRightIcon className='w-5 ml-2'/></p>
                         </div>
                     </div>
                 </div>

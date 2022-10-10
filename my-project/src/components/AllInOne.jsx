@@ -77,7 +77,7 @@ const AllInOne = () => {
                         </div>
                         <div>
                             <h3 className='font-bold text-lg'>Card invoice</h3>
-                            <p className='text-lg pt-2 pb-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, architecto.</p>
+                            <p className='text-lg pt-2 pb-4'>In the app, it's easy to consult everything you need. The invoice appears in your app.</p>
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@ const AllInOne = () => {
                         </div>
                         <div>
                             <h3 className='font-bold text-lg'>Transactions</h3>
-                            <p className='text-lg pt-2 pb-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, architecto.</p>
+                            <p className='text-lg pt-2 pb-4'>Digital banking transactions. Via pix, boleto, among others.</p>
                         </div>
                     </div>
 
