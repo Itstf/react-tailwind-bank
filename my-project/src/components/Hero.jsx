@@ -17,7 +17,7 @@ const Hero = () => {
                     <p className='text-2xl text-white'> Making lives easier, worry-free and your way. Use, save and enjoy your card as you wish. </p>
                 </div>
                 <div>
-                    <img className='w-screen hover:scale-110 transition duration-300 ease-in-out opacity-25 hover:opacity-75 ' src={bgImg} alt="/" />
+                    <img className='w-screen hover:scale-125 transition duration-300 ease-in-out opacity-25 hover:opacity-75 skew-y-12 hover:skew-y-0' src={bgImg} alt="/" />
                 </div>
                 <div className='absolute flex flex-col py-5 md:min-w-[700px] bottom-[1%] mx-1 md:left-1/2 transform md:-translate-x-1/2  bg-zinc-100 border border-slate-300 rounded-xl text-center shadow-xl'>
                     <div className='flex justify-between flex-wrap px-4'>
