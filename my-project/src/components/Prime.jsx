@@ -2,12 +2,12 @@ import React from 'react'
 
 import {CheckIcon} from '@heroicons/react/solid'
 
-import '../prime.css'
+import '../styles/prime.css'
 
 const Prime = () => {
     return (
        <div className='w-full text-white my-24' id='Loan'>
-            <div className='w-full h-[800px] bg-gradient-to-r from-purple-500 to-gray-500 absolute mix-blend-overlay shadow-xl '></div>
+            <div className='wallpaper w-full h-[800px] bg-gradient-to-r  absolute mix-blend-overlay shadow-xl '></div>
             <div className='max-w-[1240px] mx-auto py-12'>
                 <div className='text-center py-8 text-slate-300'>
                     <h2 className='text-3xl uppercase'>Loan</h2>

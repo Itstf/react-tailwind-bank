@@ -1,0 +1,18 @@
+li {
+    padding: 1rem 1rem 1rem 0rem;
+    text-decoration: underline;
+}
+
+li:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wallpaper{
+    content: ' ';
+    background-image: url("../assets/7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+

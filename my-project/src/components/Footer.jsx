@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-purple-500'>
-                <p className='py-4 text-gray-500 cursor-no-drop'> 2022 UNDA. ALL rights reserved</p>
+                <p className='py-4 text-gray-500 cursor-no-drop'> @2022 UNDA. ALL rights reserved</p>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
                     <a href="https://www.linkedin.com/in/thaiza-favarelli-da-silva-082978220/" className='hover:text-purple-600 hover:rotate-45 transition ease-in-out delay-150 duration-300'> <FaLinkedin /> </a>
                     <a href="https://github.com/Itstf" className='hover:text-purple-600 hover:rotate-45 transition ease-in-out delay-150 duration-300'> <FaGithub /> </a>

@@ -1,0 +1,19 @@
+.fundo1{
+    content: ' ';
+    background-image: url("../assets/5.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo2{
+    content: ' ';
+    background-image: url("../assets/6.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
