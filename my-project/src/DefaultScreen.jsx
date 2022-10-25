@@ -5,7 +5,6 @@ import Application from './components/Application';
 import AllInOne from './components/AllInOne';
 import Prime from './components/Prime';
 import Footer from './components/Footer';
-import Login from './components/Sign_in';
 
 function DefaultScreen() {
     return (

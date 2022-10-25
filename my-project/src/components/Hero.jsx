@@ -9,7 +9,7 @@ import bgImg from '../assets/1.png'
 
 const Hero = () => {
     return (
-        <div className='w-full h-screen bg-gradient-to-r from-amber-500 to-purple-500 flex flex-col justify-between'>
+        <div className='hmm w-full h-screen bg-gradient-to-r from-amber-500 to-purple-500 flex flex-col justify-between'>
             <div className='grid md:grid-cols-2 max-w-[1240px] m-auto' id='#Home'>
                 <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                     <p className='text-2xl text-white cursor-default'> Cards in your style! </p>
@@ -17,7 +17,7 @@ const Hero = () => {
                     <p className='text-2xl text-white cursor-default'> Making lives easier, worry-free and your way. Use, save and enjoy your card as you wish. </p>
                 </div>
                 <div>
-                    <img className='w-screen hover:scale-125 transition duration-500 ease-in-out opacity-25 hover:opacity-75 skew-y-12 hover:skew-y-0' src={bgImg} alt="/" />
+                    <img className='w-screen hover:scale-x-110 transition duration-500 ease-in-out opacity-25 hover:opacity-75 skew-y-12 hover:skew-y-0' src={bgImg} alt="/" />
                 </div>
                 <div className='absolute flex flex-col py-5 md:min-w-[700px] bottom-[1%] mx-1 md:left-1/2 transform md:-translate-x-1/2  bg-transparent border border-slate-300 rounded-xl text-center shadow-xl hover:bg-zinc-100 '>
                     <div className='flex justify-between flex-wrap px-4'>
