@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  li {
-    @apply p-4
-  }
-
-  button {
-    @apply text-white border bg-purple-500 border-purple-500
-    hover:bg-transparent hover:text-purple-500 rounded-md transition duration-300 ease-in-out
-  }
+*{
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -24,4 +17,15 @@ background: black;
 ::-webkit-scrollbar-thumb {
 border-radius: 15px;
 border: 10px solid #a855f7;
+}
+
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  button {
+    @apply text-white border bg-purple-500 border-purple-500
+    hover:bg-transparent hover:text-purple-500 rounded-md transition duration-300 ease-in-out
+  }
 }

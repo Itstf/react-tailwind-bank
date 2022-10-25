@@ -1,15 +1,12 @@
 import React from 'react'
 import {
-    CloudUploadIcon,
-    DatabaseIcon,
-    PaperAirplaneIcon,
-    ServerIcon,
+    UsersIcon
 } from '@heroicons/react/solid'
 import bgImg from '../assets/1.png'
 
 const Hero = () => {
     return (
-        <div className='hmm w-full h-screen bg-gradient-to-r from-amber-500 to-purple-500 flex flex-col justify-between'>
+        <div className='w-full h-screen bg-gradient-to-r from-amber-500 to-purple-500 flex flex-col justify-between'>
             <div className='grid md:grid-cols-2 max-w-[1240px] m-auto' id='#Home'>
                 <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                     <p className='text-2xl text-white cursor-default'> Cards in your style! </p>
@@ -21,9 +18,9 @@ const Hero = () => {
                 </div>
                 <div className='absolute flex flex-col py-5 md:min-w-[700px] bottom-[1%] mx-1 md:left-1/2 transform md:-translate-x-1/2  bg-transparent border border-slate-300 rounded-xl text-center shadow-xl hover:bg-zinc-100 '>
                     <div className='flex justify-between flex-wrap px-4'>
-                        <p className='flex px-4 py-2 text-slate-500'> <CloudUploadIcon className='h-6 text-slate-500 hover:text-zinc-600 cursor-default'/> Basic </p>
-                        <p className='flex px-4 py-2 text-slate-500'> <CloudUploadIcon className='h-6 text-slate-500 hover:text-amber-500 cursor-default first-letter:'/> Gold </p>
-                        <p className='flex px-4 py-2 text-slate-500'> <CloudUploadIcon className='h-6 text-slate-500 hover:text-purple-500 cursor-default'/> Platinum </p>
+                        <p className='flex px-4 py-2 text-slate-500'> <UsersIcon className='mr-2 h-6 text-slate-500 hover:text-zinc-600 cursor-default'/> Basic </p>
+                        <p className='flex px-4 py-2 text-slate-500'> <UsersIcon className='mr-2 h-6 text-slate-500 hover:text-amber-500 cursor-default first-letter:'/> Gold </p>
+                        <p className='flex px-4 py-2 text-slate-500'> <UsersIcon className='mr-2 h-6 text-slate-500 hover:text-purple-500 cursor-default'/> Platinum </p>
                     </div>
                 </div>
             </div>

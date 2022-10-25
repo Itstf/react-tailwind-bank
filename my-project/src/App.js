@@ -4,6 +4,10 @@ import DefaultScreen from "../src/DefaultScreen"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, {useState, useEffect} from "react";
 import fire from './fire';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Application from './components/Application';
 
 
 const App = () => {

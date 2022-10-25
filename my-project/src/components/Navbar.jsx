@@ -3,7 +3,6 @@
 // #f67e09 - amber-500
 // https://tailwindcss.com/docs/background-color |-> color
 // https://heroicons.com/ 
-// https://tailwindcss.com/docs/margin
 
 import React, {useState} from 'react'
 import {Link} from "react-router-dom" 
@@ -26,7 +25,7 @@ const Navbar = () => {
     // window.addEventListener('scroll', changeColor)
 
     return (
-        <div className='w-screen h-[65px] z-10 bg-slate-100 fixed drop-shadow-lg'>
+        <div className='w-screen h-[65px] z-10 fixed bg-slate-100 drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
                     <h1 className='cursor-not-allowed text-3xl font-bold mr-10 ml-4 sm:text-4xl text-amber-500'>UNDA.</h1>

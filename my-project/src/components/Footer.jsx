@@ -4,6 +4,7 @@ import {
     FaInstagram,
     FaLinkedin,
 } from 'react-icons/fa'
+import '../styles/footer.css'
 
 const Footer = () => {
     return (
@@ -61,6 +62,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/thaiza-favarelli-da-silva-082978220/" className='hover:text-purple-600 hover:rotate-45 transition ease-in-out delay-150 duration-300'> <FaLinkedin /> </a>
                     <a href="https://github.com/Itstf" className='hover:text-purple-600 hover:rotate-45 transition ease-in-out delay-150 duration-300'> <FaGithub /> </a>
                     <a href="https://www.instagram.com/tfavarelli" className='hover:text-purple-600 hover:rotate-45 transition ease-in-out delay-150 duration-300'> <FaInstagram /> </a>                
+                    <a href="#" class="btntopo"></a>
                 </div>
             </div>
 

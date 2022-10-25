@@ -1,0 +1,23 @@
+.btntopo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #f68009cb;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btntopo::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btntopo:hover::after {
+    margin-top:-8px;
+}
