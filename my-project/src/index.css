@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+*::selection{
+  background-color: #a855f7;
+  color: white;
+}
+
 ::-webkit-scrollbar {
   width: 15px
 }

@@ -8,9 +8,9 @@ const Hero = () => {
     return (
         <div className='w-full h-screen bg-gradient-to-r from-amber-500 to-purple-500 flex flex-col justify-between'>
             <div className='grid md:grid-cols-2 max-w-[1240px] m-auto' id='#Home'>
-                <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
+                <div className='flex flex-col justify-center md:items-start w-full px-2 py-8 sm:mt-10'>
                     <p className='text-2xl text-white cursor-default'> Cards in your style! </p>
-                    <h1 className='py-3 text-5xl md:text-7xl font-bold text-amber-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500 transition duration-700 ease-in-out cursor-default'> Credit and Debit </h1>
+                    <h1 className='py-3 text-5xl md:text-7xl font-bold text-white hover:text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500 transition duration-700 ease-in-out cursor-default'> Credit and Debit </h1>
                     <p className='text-2xl text-white cursor-default'> Making lives easier, worry-free and your way. Use, save and enjoy your card as you wish. </p>
                 </div>
                 <div>

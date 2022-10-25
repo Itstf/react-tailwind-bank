@@ -8,8 +8,6 @@ import React, {useState} from 'react'
 import {Link} from "react-router-dom" 
 import {MenuIcon, XIcon} from '@heroicons/react/outline'
 
-import '../styles/navbar.css'
-
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
@@ -22,7 +20,7 @@ const Navbar = () => {
     //         setColor(false)
     //     }
     // }
-    // window.addEventListener('scroll', changeColor)
+    // window.addEventListener('scroll', changeColor)   
 
     return (
         <div className='w-screen h-[65px] z-10 fixed bg-slate-100 drop-shadow-lg'>
@@ -54,11 +52,14 @@ const Navbar = () => {
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#App"> App </a></li>
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#Loan"> Loan </a></li>
                 <div className='flex flex-col my-4'>
-                    <button className='bg-transparent text-purple-500 px-8 py-3 mb-4 hover:text-amber-500'>Login</button>
-                    <button className='px-8 py-3'> Sign Up</button>
+                    <Link to='/sign_in' className='flex flex-col my-4'>
+                        <button className='bg-transparent text-purple-500 px-8 py-3 mb-4 hover:text-amber-500'>Login</button>
+                    </Link>
+                    <Link to='/sign_up' className='flex flex-col my-4'>
+                        <button className='px-8 py-3'> Sign Up</button>
+                    </Link>
                 </div>
             </ul>
-
         </div>
     )
 }
