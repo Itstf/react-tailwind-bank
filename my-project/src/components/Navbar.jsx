@@ -23,20 +23,20 @@ const Navbar = () => {
     // window.addEventListener('scroll', changeColor)   
 
     return (
-        <div className='w-screen h-[65px] z-10 fixed bg-slate-100 drop-shadow-lg'>
+        <div className='w-screen h-[65px] z-10 fixed bg-slate-100 dark:bg-gray-800 drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
                     <h1 className='cursor-not-allowed text-3xl font-bold mr-10 ml-4 sm:text-4xl text-amber-500'>UNDA.</h1>
                     <ul className='hidden md:flex'>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#"> Home </a> </li>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#About"> About </a> </li>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#App"> App </a> </li>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#Loan"> Loan </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#"> Home </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#About"> About </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#App"> App </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#Loan"> Loan </a> </li>
                     </ul>
                 </div>
                 <div className='hidden md:flex pr-4'>
                     <Link to='/sign_in' className='mt-2'>
-                        <button to='/sign_in' className='border-none bg-transparent text-black mr-4'> Login </button>
+                        <button to='/sign_in' className='border-none bg-transparent text-black mr-4 dark:text-white'> Login </button>
                     </Link>
                     <Link to='/sign_up'>
                         <button className='px-6 py-2 mr-4'> Sign Up </button>

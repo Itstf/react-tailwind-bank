@@ -9,9 +9,9 @@ const Hero = () => {
         <div className='w-full h-screen bg-gradient-to-r from-amber-500 to-purple-500 flex flex-col justify-between'>
             <div className='grid md:grid-cols-2 max-w-[1240px] m-auto' id='#Home'>
                 <div className='flex flex-col justify-center md:items-start w-full px-2 py-8 sm:mt-10'>
-                    <p className='text-2xl text-white cursor-default'> Cards in your style! </p>
+                    <p className='text-2xl text-white cursor-default dark:text-gray-800'> Cards in your style! </p>
                     <h1 className='py-3 text-5xl md:text-7xl font-bold text-white hover:text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500 transition duration-700 ease-in-out cursor-default'> Credit and Debit </h1>
-                    <p className='text-2xl text-white cursor-default'> Making lives easier, worry-free and your way. Use, save and enjoy your card as you wish. </p>
+                    <p className='text-2xl text-white cursor-default dark:text-gray-800'> Making lives easier, worry-free and your way. Use, save and enjoy your card as you wish. </p>
                 </div>
                 <div>
                     <img className='w-screen hover:scale-x-110 transition duration-500 ease-in-out opacity-25 hover:opacity-75 skew-y-12 hover:skew-y-0' src={bgImg} alt="/" />

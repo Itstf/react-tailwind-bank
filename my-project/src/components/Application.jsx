@@ -6,7 +6,7 @@ import imgProfile from '../assets/profile.png'
 
 const Application = () => {
     return (
-        <div className='w-full my-32 ' id='App'>
+        <div className='w-full my-32' id='App'>
             <div className='max-w-[1240px] mx-auto'>
                 <div className='text-center'>
                     <h2 className='text-5xl font-bold'> Want to surf the wave of digital? </h2>
