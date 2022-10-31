@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className='w-screen h-[65px] z-10 fixed bg-slate-100 dark:bg-gray-800 drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
-                    <h1 className='cursor-not-allowed text-3xl font-bold mr-10 ml-4 sm:text-4xl text-amber-500'>UNDA.</h1>
+                    <h1 className='cursor-not-allowed text-3xl font-bold mr-10 ml-4 sm:text-4xl text-amber-500 dark:text-white'>UNDA.</h1>
                     <ul className='hidden md:flex'>
                         <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#"> Home </a> </li>
                         <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#About"> About </a> </li>
