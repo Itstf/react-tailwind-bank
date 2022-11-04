@@ -1,23 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import lg from '../assets/logotipo.png'
 import {Link} from 'react-router-dom' 
 import '../styles/login.css'
 
-// https://www.youtube.com/watch?v=cFgoSrOui2M / 21:20min - firebase
+function initialState() {
+    return {user: '', password: ''}
+}
 
-const Sign_in = (props) => {
+const Sign_in = () => {
+    // const [values, setValues] = useState()
 
-    const { 
-        email, 
-        setEmail, 
-        password, 
-        setPassword, 
-        handleLogin, 
-        handleSignup, 
-        hasAccount, 
-        setHasAccount, 
-        emailError, 
-        passwordError, } = props;
+    // function onChange(event) {
+    //     const {value, name} = event.target
+    //     setValues({
+    //         ...values,
+    //         [name]: value,
+    //     })
+    // }
 
     return (
         <section className='fundo1'>
@@ -34,17 +33,14 @@ const Sign_in = (props) => {
                             Login to yout account
                         </h1>
                         <form className='space-y-4 md:space-y-6' action='#'>
-                            
                             <div>
-                                <label for='email' className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>Your email</label>
-                                <input type='email' name='email' autoFocus required value={email} onChange={(e) => setEmail(e.target.Value)} id='email' className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500' placeholder='name@unda.com'/>
-                                <p>{emailError}</p>
+                                <label for='email' className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>User = Email</label>
+                                <input type='email' name='email' autoFocus required  id='email' className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500' placeholder='name@unda.com'/>
                             </div>
 
                             <div>
                                 <label for='password' className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>Password</label>
-                                <input type='password' name='password' required value={password} onChange={(e) => setPassword(e.target.Value)} id='password' placeholder='••••••••' className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'/>
-                                <p>{passwordError}</p>
+                                <input type='password' name='password' required  id='password' placeholder='••••••••' className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'/>
                             </div>
 
                             <div class='flex items-start'>
@@ -56,11 +52,13 @@ const Sign_in = (props) => {
                                 </div>
                             </div>
 
-                            <button type='submit' className='w-full dark:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 text-black '>Login</button>
+                            <Link to='/logged'> 
+                                <button type='submit' className='w-full dark:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 text-black '> Login </button> 
+                            </Link>
+
                             <p className='text-sm font-light text-gray-500 dark:text-gray-400'>
-                                    <Link to='/sign_up' className='font-medium text-primary-600 hover:underline dark:text-primary-500'> Sign Up </Link>
-                            </p> 
-                                                 
+                                <Link to='/sign_up' className='font-medium text-primary-600 hover:underline dark:text-primary-500'> Sign Up </Link>
+                            </p>                    
                         </form>
                     </div>
                 </div>

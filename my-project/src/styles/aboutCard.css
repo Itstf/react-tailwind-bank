@@ -1,0 +1,20 @@
+.rainbow-text {
+    background: #f67e09;
+    background-color: #f67e09;
+    background: conic-gradient(
+        #f67e09 16.666%, 
+        #f67e09 16.666%, 
+        #df7409  33.333%, 
+        #f67e09 33.333%, 
+        #f67e09 50%, 
+        #bcabfd 50%, 
+        #b6a5fa 66.666%, 
+        #8a76d7 66.666%, 
+        #8a76d7 83.333%, 
+        #5d4ca3 83.333%);
+    background-size: 57%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: rainbow-text-animation-rev 0.5s ease forwards;
+}
