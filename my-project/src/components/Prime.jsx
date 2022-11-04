@@ -51,7 +51,7 @@ const Prime = () => {
                             <p className='flex py-4 text-xl'>- Ease of choosing and changing the date of payment of charges</p>
                             <p className='flex py-4 text-xl'>- You can check the number of days you are using</p>
                             <p className='flex py-4 text-xl'>- Information on limits, fees and other contract conditions</p>
-                            <p className='flex py-4 text-xl'>- As parcelas são debitadas da conta-corrente na data que você escolher</p>
+                            <p className='flex py-4 text-xl'>- The installments are debited from the current account on the date you choose</p>
                         </div>
                     </div>
                 </div>
