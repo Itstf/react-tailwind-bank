@@ -1,0 +1,17 @@
+.titulo{
+    color: transparent;
+    background: linear-gradient(to left, #f67e09, #ffffff);
+    background-size: 1000px 100%;
+    animation: bg 60s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  @keyframes bg {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 10000px;
+    }
+  }

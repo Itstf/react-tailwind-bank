@@ -1,20 +1,19 @@
 import React, {useState} from 'react'
 
-import Navbar from '../src/componentsLogged/Navbar'
-import Footer from '../src/components/Footer'
-import Home from '../src/componentsLogged/Home'
-import Services from '../src/componentsLogged/Services'
-import AboutCard from '../src/componentsLogged/AboutCard'
-
+import NavbarLogged from '../src/components/NavbarLogged'
+import FooterLogged from '../src/components/FooterLogged'
+import Home from '../src/components/Home'
+import Services from '../src/components/Services'
+import AboutCard from '../src/components/AboutCard'
 
 const Logged = () => {
     return (
         <>
-            <Navbar />
+            <NavbarLogged />
             <Home />
-            <Services />
             <AboutCard />
-            <Footer />
+            <Services />
+            <FooterLogged />
         </>
     )
 }

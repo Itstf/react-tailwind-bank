@@ -4,19 +4,19 @@ import {
     FaInstagram,
     FaLinkedin,
 } from 'react-icons/fa'
+import {Link} from "react-router-dom" 
 import '../styles/footer.css'
 
 const Footer = () => {
     return (
         <div className='w-full mt-24 bg-white dark:bg-gradient-to-r from-zinc-600 to-zinc-900 text-gray-300 py-y px-2'>
             <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-500 py-8'>
-                
                 <div>
                     <h6 className='font-bold uppercase pt-2 text-zinc-900 dark:text-zinc-400'>
                         About UNDA bank
                     </h6>
                     <ul>
-                        <li className='text-zinc-900 dark:text-zinc-400'> Common questions </li>
+                        <li className='text-zinc-900 dark:text-zinc-400'><Link to='/sign_up'> Common questions </Link></li>
                     </ul>
                 </div>
 
@@ -25,7 +25,7 @@ const Footer = () => {
                         Transparency
                     </h6>
                     <ul>
-                        <li className='text-zinc-900 dark:text-zinc-400'> Privacy policy </li>
+                        <li className='text-zinc-900 dark:text-zinc-400'><Link to='/sign_up'> Privacy policy </Link></li>
                     </ul>
                 </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
                         Talk to us
                     </h6>
                     <ul>
-                        <li className='text-zinc-900 dark:text-zinc-400'> Work with us </li>
+                        <li className='text-zinc-900 dark:text-zinc-400'><Link to='/sign_up'> Work with us </Link></li>
                     </ul>
                 </div>
 
@@ -43,7 +43,7 @@ const Footer = () => {
                         Services
                     </h6>
                     <ul>
-                        <li className='text-zinc-900 dark:text-zinc-400'> Cards </li>
+                        <li className='text-zinc-900 dark:text-zinc-400'><Link to='/sign_up'> Cards </Link></li>
                     </ul>
                 </div>
 
