@@ -16,7 +16,7 @@ const Hero = () => {
                 <div>
                     <img className='w-screen hover:scale-x-110 transition duration-500 ease-in-out opacity-25 hover:opacity-75 skew-y-12 hover:skew-y-0' src={bgImg} alt="/" />
                 </div>
-                <div className='absolute flex flex-col py-5 md:min-w-[700px] bottom-[1%] mx-1 md:left-1/2 transform md:-translate-x-1/2  bg-transparent border border-slate-300 rounded-xl text-center shadow-xl hover:bg-zinc-100 '>
+                <div className='absolute flex flex-col py-5 md:min-w-[700px] bottom-[1%] mx-1 md:left-1/2 transform md:-translate-x-1/2  bg-transparent border border-slate-300 transition duration-500 ease-in-out rounded-xl text-center shadow-xl hover:bg-zinc-100 '>
                     <div className='flex justify-between flex-wrap px-4'>
                         <p className='flex px-4 py-2 text-slate-500'> <UsersIcon className='mr-2 h-6 text-slate-500 hover:text-zinc-600 cursor-default'/> Basic </p>
                         <p className='flex px-4 py-2 text-slate-500'> <UsersIcon className='mr-2 h-6 text-slate-500 hover:text-amber-500 cursor-default first-letter:'/> Gold </p>

@@ -34,21 +34,21 @@ const Sign_in = () => {
                             </div>
 
                             <div>
-                                <label for='password' className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>Password</label>
+                                <label for='password' className=' block mb-2 text-sm font-medium text-gray-900 dark:text-white'>Password</label>
                                 <input type='password' name='password' required placeholder='••••••••' className='bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'/>
                             </div>
 
-                            <div class='flex items-start'>
+                            {/* <div class='flex items-start'>
                                 <div class='flex items-center h-5'>
                                     <input id='terms' aria-describedby='terms' type='checkbox' className='w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800' required=''/>
                                 </div>
                                 <div class='ml-3 text-sm mb-5'>
                                     <label for='terms' className='font-light text-gray-500 dark:text-gray-300'>Remember</label>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <Link to='/logged'> 
-                                <button type='submit' className='w-full dark:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 text-black'> Login </button> 
+                                <button type='submit' className='w-full mt-9 dark:text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 text-black'> Login </button> 
                             </Link>
 
                             <p className='text-sm font-light text-gray-500 dark:text-gray-400'>

@@ -18,7 +18,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden md:flex pr-4'>
-                    <button to='/sign_in' className='border-none bg-transparent text-black mr-4 dark:text-white'> Name_user </button>
+                    <button to='/sign_in' className='border-none bg-transparent cursor-default text-black mr-4 hover:text-black dark:text-white dark:hover:text-white'> Name_user </button>
                     <Link to='/'>
                         <button className='px-6 py-2 mr-4'> Quit </button>
                     </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#About"> Services </a></li>
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#Card"> Card </a></li>
                 <div className='flex flex-col my-4'>
-                    <button className='bg-transparent text-purple-500 px-8 py-3 mb-4 hover:text-amber-500'>Name</button>
+                    <button className='bg-transparent text-purple-500 px-8 py-3 mb-4'>Name</button>
                     <Link to='/' className='flex flex-col my-4'>
                         <button className='px-8 py-3'> Quit </button>
                     </Link>
