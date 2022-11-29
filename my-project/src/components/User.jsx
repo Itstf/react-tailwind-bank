@@ -14,7 +14,7 @@ const User = () => {
             setLd(true);
             setItems(result);
         })
-    })
+    }, [])
 
   return (
     <div className='overflow-hidden bg-white shadow sm:rounded-lg mx-auto py-24 px-14 lg:max-w-7xl'>
