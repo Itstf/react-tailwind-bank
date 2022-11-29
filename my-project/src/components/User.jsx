@@ -37,13 +37,13 @@ const User = () => {
                     ))}
                 </div>
                 <div className='bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-                    <dt className='text-sm font-medium text-gray-500'>Account</dt>
+                    <dt className='text-sm font-medium text-gray-500'>Agency</dt>
                     {items.map(item => (
                         <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0' key={item.id}>{item.agencia}</dd>
                     ))}
                 </div>
                 <div className='bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
-                    <dt className='text-sm font-medium text-gray-500'>Card</dt>
+                    <dt className='text-sm font-medium text-gray-500'>Account</dt>
                     {items.map(item => (
                         <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0' key={item.id}>{item.tipo}</dd>
                     ))}
@@ -51,7 +51,7 @@ const User = () => {
                 <div className='bg-gray-100 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                     <dt className='text-sm font-medium text-gray-500'>Value</dt>
                     {items.map(item => (
-                        <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0' key={item.id}>{item.saldo}</dd>
+                        <dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0' key={item.id}>${item.saldo}</dd>
                     ))}
                 </div>
             </dl>
