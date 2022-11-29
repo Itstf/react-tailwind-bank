@@ -32,7 +32,7 @@ const Sign_in = () => {
         result = await result.json()
         console.log(result)
         localStorage.setItem('user-info',JSON.stringify(result))
-        navigate('/logged')
+        navigate('/user')
     }
 
 
