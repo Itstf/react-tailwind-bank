@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     function deslogar(){
-        localStorage('user-info', '');
+        localStorage.removeItem('user-info', '');
     }
 
     return (

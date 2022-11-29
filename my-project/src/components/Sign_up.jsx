@@ -16,18 +16,22 @@ const Sign_up = () => {
         let item={'nomeUsuario': name, 'emailUsuario': email, 'senha': password, 'bloqueio_acesso':true}
         console.warn(item)
 
-        let endereco = 'http://127.0.0.1:8000/usuarios/'
-        let result = await fetch(endereco,{
-            method: 'POST',
-            body:JSON.stringify(item),
-            headers:{
-                'Content-Type':'application/json',
-                'Accept':'application/json'
-            }
-        })
-        result = await result.json()
-        localStorage.setItem('user-info', JSON.stringify(result))
-        navigate('/sign_in')
+        if (!name || !email || !password){
+            console.log('faltando campo a ser preenchido T.T')
+        } else {
+            let endereco = 'http://127.0.0.1:8000/usuarios/'
+            let result = await fetch(endereco,{
+                method: 'POST',
+                body:JSON.stringify(item),
+                headers:{
+                    'Content-Type':'application/json',
+                    'Accept':'application/json'
+                }
+            })
+            result = await result.json()
+            localStorage.setItem('user-info', JSON.stringify(result))
+            navigate('/sign_in')
+        }
     }
 
     return (
