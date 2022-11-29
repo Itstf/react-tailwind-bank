@@ -5,9 +5,9 @@ import '../styles/login.css'
 
 const Sign_up = () => {
 
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
     const navigate = useNavigate();
 
     async function signUp()
@@ -16,19 +16,18 @@ const Sign_up = () => {
         let item={'nomeUsuario': name, 'emailUsuario': email, 'senha': password, 'bloqueio_acesso':true}
         console.warn(item)
 
-
-        let endereco = "http://127.0.0.1:8000/usuarios/"
+        let endereco = 'http://127.0.0.1:8000/usuarios/'
         let result = await fetch(endereco,{
             method: 'POST',
             body:JSON.stringify(item),
             headers:{
-                "Content-Type":'application/json',
-                "Accept":'application/json'
+                'Content-Type':'application/json',
+                'Accept':'application/json'
             }
         })
         result = await result.json()
-        localStorage.setItem("user-info", JSON.stringify(result))
-        navigate("/sign_in")
+        localStorage.setItem('user-info', JSON.stringify(result))
+        navigate('/sign_in')
     }
 
     return (

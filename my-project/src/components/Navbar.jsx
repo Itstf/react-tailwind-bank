@@ -5,7 +5,7 @@
 // https://heroicons.com/ 
 
 import React, {useState} from 'react'
-import {Link} from "react-router-dom" 
+import {Link} from 'react-router-dom' 
 import {MenuIcon, XIcon} from '@heroicons/react/outline'
 
 const Navbar = () => {
@@ -28,10 +28,10 @@ const Navbar = () => {
                 <div className='flex items-center'>
                     <h1 className='cursor-not-allowed text-3xl font-bold mr-10 ml-4 sm:text-3xl text-amber-500 dark:text-white'>UNDA.</h1>
                     <ul className='hidden md:flex'>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#"> Home </a> </li>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#About"> About </a> </li>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#App"> App </a> </li>
-                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href="#Loan"> Loan </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href='#'> Home </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href='#About'> About </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href='#App'> App </a> </li>
+                        <li className='hover:text-amber-500 no-underline transition duration-300 ease-in-out dark:text-white'> <a href='#Loan'> Loan </a> </li>
                     </ul>
                 </div>
                 <div className='hidden md:flex pr-4'>
@@ -47,10 +47,10 @@ const Navbar = () => {
                 </div>
             </div>
             <ul className={!nav ? 'hidden' : 'absolute bg-slate-100 w-full px-8'}>
-                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#"> Home </a></li>
-                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#About"> About </a></li>
-                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#App"> App </a></li>
-                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href="#Loan"> Loan </a></li>
+                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href='#'> Home </a></li>
+                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href='#About'> About </a></li>
+                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href='#App'> App </a></li>
+                <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href='#Loan'> Loan </a></li>
                 <div className='flex flex-col my-4'>
                     <Link to='/sign_in' className='flex flex-col my-4'>
                         <button className='bg-transparent text-purple-500 px-8 py-3 mb-4 hover:text-amber-500'>Login</button>

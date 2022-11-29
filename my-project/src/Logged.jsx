@@ -4,14 +4,14 @@ import NavbarLogged from '../src/components/NavbarLogged'
 import FooterLogged from '../src/components/FooterLogged'
 import Home from '../src/components/Home'
 import Services from '../src/components/Services'
-import AboutCard from '../src/components/AboutCard'
+import User from '../src/components/User'
 
 const Logged = () => {
     return (
         <>
             <NavbarLogged />
+            <User />
             <Home />
-            <AboutCard />
             <Services />
             <FooterLogged />
         </>

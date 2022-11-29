@@ -1,69 +1,65 @@
-import React from 'react'
+import photo1 from '../assets/1.jpg'
+import photo2 from '../assets/2.jpg'
+import photo3 from '../assets/4.jpg'
+import photo4 from '../assets/8.jpg'
 
-import {BookmarkIcon} from '@heroicons/react/outline'
-
-import img from '../assets/10.jpg'
-
+const features = [
+    // 'titulo' e escrita
+    { name: 'Pix', description: 'Easy, fast, immediate.' },
+    { name: 'Recharge', description: 'No card needed, just use your cell phone to recharge!' },
+    { name: 'Tickets', description: 'Copy and billing slip update.' },
+    { name: 'Loan', description: 'Easy online loan.' },
+    { name: 'Cards', description: 'Apply through the app in just a few steps.' },
+    { name: 'Help', description: 'Ask your questions and ask for our help.' },
+  ]
+  
 const Services = () => {
     return (
-       <div className='w-full mt-24' id='About'>
-            <div className='w-full md:h-[1140px] bg-gray-900/40 absolute'>
-                <img className='w-full h-full object-cover mix-blend-overlay' src={img} alt="/" />
-            </div>
+        <div className='bg-white' id='services'>
+            <div className='mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8'>
+                <div>
+                    <p className='relative group'>
+                        <span className='text-3xl font-bold tracking-tight text-amber-500 sm:text-4xl cursor-default hover:text-amber-500 duration-500 delay-150 ease-in-ou'>UNDA</span>
+                        <span className='absolute -bottom-1 left-0 w-0 h-2 bg-purple-500 transition-all group-hover:w-full duration-500 ease-in-ou'></span>
+                    </p>
+                    
+                    <p className='mt-4 text-gray-500'>
+                        Online in the app
+                    </p>
         
-            <div className='max-w-[1240px] mx-auto text-white relative'>
-                <div className='px-4 py-12'>
-                    <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'> UNDA </h2>
-                    <h3 className='text-5xl font-bold py-6 text-center'> Online in the app </h3>
+                    <dl className='mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8'>
+                        {features.map((feature) => (
+                            <div key={feature.name} className='border-t border-gray-200 pt-4'>
+                                <dt className='font-medium text-gray-900'>{feature.name}</dt>
+                                <dd className='mt-2 text-sm text-gray-500'>{feature.description}</dd>
+                            </div>
+                        ))}
+                    </dl>
                 </div>
-
-                <div className='grid grid-cols-1 lg:grid-cols-2 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
-                    <div className='bg-white rounded-xl shadow-2xl hover:scale-105 transition duration-300 ease-in-out'>
-                        <div className='p-8'>
-                            <BookmarkIcon className='w-5 mr-5 text-amber-500 hover:text-purple-500 transition duration-300 ease-in-out'/>
-                            <h3 className='font-bold text-2xl my-6'> Pix </h3>
-                            
-                            <p className='text-gray-600 text-xl cursor-default'> Easy, fast, immediate. </p>
-                        </div>
-                    </div>
-                    <div className='bg-white rounded-xl shadow-2xl hover:scale-105 transition duration-300 ease-in-out'>
-                        <div className='p-8'>
-                            <BookmarkIcon className='w-5 mr-5 text-amber-500 hover:text-purple-500 transition duration-300 ease-in-out'/>
-                            <h3 className='font-bold text-2xl my-6'> Recharge </h3>
-                            <p className='text-gray-600 text-xl cursor-default'> No card needed, just use your cell phone to recharge! </p>
-                        </div>
-                    </div>
-                    <div className='bg-white rounded-xl shadow-2xl hover:scale-105 transition duration-300 ease-in-out'>
-                        <div className='p-8'>
-                            <BookmarkIcon className='w-5 mr-5 text-amber-500 hover:text-purple-500 transition duration-300 ease-in-out'/>
-                            <h3 className='font-bold text-2xl my-6'> Tickets </h3>
-                            <p className='text-gray-600 text-xl cursor-default'> Copy and billing slip update. </p>
-                        </div>
-                    </div>
-                    <div className='bg-white rounded-xl shadow-2xl hover:scale-105 transition duration-300 ease-in-out'>
-                        <div className='p-8'>
-                            <BookmarkIcon className='w-5 mr-5 text-amber-500 hover:text-purple-500 transition duration-300 ease-in-out'/>
-                            <h3 className='font-bold text-2xl my-6'> Loan </h3>
-                            <p className='text-gray-600 text-xl cursor-default'> Easy online loan. </p>
-                        </div>
-                    </div>
-                    <div className='bg-white rounded-xl shadow-2xl hover:scale-105 transition duration-300 ease-in-out'>
-                        <div className='p-8'>
-                            <BookmarkIcon className='w-5 mr-5 text-amber-500 hover:text-purple-500 transition duration-300 ease-in-out'/>
-                            <h3 className='font-bold text-2xl my-6'> Cards </h3>
-                            <p className='text-gray-600 text-xl cursor-default'> Apply through the app in just a few steps. </p>
-                        </div>
-                    </div>
-                    <div className='bg-white rounded-xl shadow-2xl hover:scale-105 transition duration-300 ease-in-out'>
-                        <div className='p-8'>
-                            <BookmarkIcon className='w-5 mr-5 text-amber-500 hover:text-purple-500 transition duration-300 ease-in-out'/>
-                            <h3 className='font-bold text-2xl my-6'> Help </h3>
-                            <p className='text-gray-600 text-xl cursor-default'> Ask your questions and ask for our help. </p>
-                        </div>
-                    </div>
+                <div className='grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8'>
+                    <img
+                        src={photo1}
+                        alt=''
+                        className='rounded-lg bg-gray-100 hover:scale-105 transition duration-300 ease-in-out shadow-lg shadow-amber-500/50 hover:shadow-purple-500/50'
+                    />
+                    <img
+                        src={photo2}
+                        alt=''
+                        className='rounded-lg bg-gray-100 hover:scale-105 transition duration-300 ease-in-out shadow-lg shadow-amber-500/50 hover:shadow-purple-500/50'
+                    />
+                    <img
+                        src={photo3}
+                        alt=''
+                        className='rounded-lg bg-gray-100 hover:scale-105 transition duration-300 ease-in-out shadow-lg shadow-amber-500/50 hover:shadow-purple-500/50'
+                    />
+                    <img
+                        src={photo4}
+                        alt=''
+                        className='rounded-lg bg-gray-100 hover:scale-105 transition duration-300 ease-in-out shadow-lg shadow-amber-500/50 hover:shadow-purple-500/50'
+                    />
                 </div>
             </div>
-       </div>
+        </div>
     )
 }
 export default Services

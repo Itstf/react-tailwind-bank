@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path='/' element={<DefaultScreen />} />
-          <Route path='/logged' element={<Logged />} />
+          <Route path='/user' element={<Logged />} />
           <Route path='/sign_in' element={<Sign_in />} />
           <Route path='/sign_up' element={<Sign_up />} />
         </Routes>

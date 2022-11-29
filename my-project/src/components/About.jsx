@@ -11,7 +11,7 @@ const About = () => {
     return (
        <div className='w-full mt-24' id='About'>
             <div className='w-full h-[700px] bg-gray-900/40 absolute'>
-                <img className='w-full h-full object-cover mix-blend-overlay' src={img} alt="/" />
+                <img className='w-full h-full object-cover mix-blend-overlay' src={img} alt='/' />
             </div>
 
             <div className='max-w-[1240px] mx-auto text-white relative'>

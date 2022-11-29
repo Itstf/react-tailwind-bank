@@ -14,7 +14,7 @@ const Hero = () => {
                     <p className='text-2xl text-white cursor-default dark:text-gray-800'> Making lives easier, worry-free and your way. Use, save and enjoy your card as you wish. </p>
                 </div>
                 <div>
-                    <img className='w-screen hover:scale-x-110 transition duration-500 ease-in-out opacity-25 hover:opacity-75 skew-y-12 hover:skew-y-0' src={bgImg} alt="/" />
+                    <img className='w-screen hover:scale-x-110 transition duration-500 ease-in-out opacity-25 hover:opacity-75 skew-y-12 hover:skew-y-0' src={bgImg} alt='/' />
                 </div>
                 <div className='absolute flex flex-col py-5 md:min-w-[700px] bottom-[1%] mx-1 md:left-1/2 transform md:-translate-x-1/2  bg-transparent border border-slate-300 transition duration-500 ease-in-out rounded-xl text-center shadow-xl hover:bg-zinc-100 '>
                     <div className='flex justify-between flex-wrap px-4'>
