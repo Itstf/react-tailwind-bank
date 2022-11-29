@@ -3,7 +3,7 @@ import Sign_in from './Sign_in'
 
 const User = () => { 
 
-    //// objetivo: Puxar variavel para o campo da web
+    //// objetivo: Puxar variavel django para o campo da web
     const [items, setItems] = useState([])
     const [ld, setLd] = useState([])
 
