@@ -34,9 +34,8 @@ const Navbar = () => {
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href='#'> Home </a></li>
                 <li className='border-b-2 border-zinc-300 w-full hover:text-amber-500 no-underline transition duration-300 ease-in-out'> <a href='#services'> Services </a></li>
                 <div className='flex flex-col my-4'>
-                    {/* <button className='bg-transparent text-purple-500 px-8 py-3 mb-4'>Name_user</button> */}
                     <Link to='/' className='flex flex-col my-4'>
-                        <button className='px-8 py-3' onClick='deslogar()'> Quit </button>
+                        <button className='px-8 py-3' onClick={deslogar}> Quit </button>
                     </Link>
                 </div>
             </ul>
